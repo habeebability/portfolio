@@ -59,6 +59,10 @@ i {
 .heading-primary span {
     display: block;
 }
+
+.description .heading-primary {
+    margin-bottom: 0 !important;
+}
 .heading-small {
     font-size: 1.5rem;
 }
@@ -113,7 +117,7 @@ i {
 }
 
 .services {
-    height: 100vh;
+    height: auto;
 }
 
 .profile-pic img {
@@ -168,6 +172,10 @@ i {
     }
     .about-description p {
         line-height: 1.9rem;
+    }
+
+    .services {
+        height: 100vh;
     }
 
     .services-row .card {
