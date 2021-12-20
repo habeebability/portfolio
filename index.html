@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+
+    <!-- Animation CSS -->
+	  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="stylesheet"
       href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
@@ -27,7 +30,7 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">Habeeb Awoyemi</a>
+        <a class="navbar-brand" href="index.html">Habeeb Awoyemi</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,27 +45,27 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Contact Me</a>
+              <a class="nav-link" href="#contact">Contact Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">My Services</a>
+              <a class="nav-link" href="#service">My Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
     <section class="hero container">
-      <div class="row hero-row my-5 d-flex">
-        <div class="col-xl-6 col-lg-6 col-md-12 description">
+      <div class="row hero-row my-5 d-flex g-5">
+        <div class="col-xl-6 col-lg-6 col-md-6 description">
           <h2 class="heading-secondary">
             <span class="heading-small">Good day, I'm</span>
           </h2>
@@ -78,48 +81,43 @@
           <button class="btn btn-success mt-5 px-5 py-2">Hire Me</button>
         </div>
 
-        <div class="col-xl-6 col-lg-6 col-md-12 avatar-div">
+        <div class="col-xl-6 col-lg-6 col-md-6 avatar-div">
           <img src="img/photo3.png" alt="" />
         </div>
       </div>
     </section>
-    <section class="about-me">
-      <div class="row about-row container mx-auto d-flex align-items-center">
-        <div class="col col-xl-6 lg-6 col-sm-12 profile-pic">
-          <img class="img-responsive" src="img/photo3.png" alt="" srcset="" />
-        </div>
-
-        <div class="col col-xl-6 lg-6 col-sm-12 about-description">
-          <h3><span class="box motion-blur">&#128512;</span> About Me</h3>
-          <div>
-            <!-- ball position -->
-            <div id="suport">
-              <div id="smash">
-                <div id="translateShadow">
-                  <div id="light"></div>
-                  <div id="rotateImg"></div>
-                </div>
-              </div>
-            </div>
+    <section id="about" class="about-me d-flex justify-content-center">
+      <div class="container about-row-container my-auto">
+        <div class="row about-row ">
+          <div class="col col-xl-6 col-lg-6 col-sm-12 profile-pic">
+            <img class="" src="img/photo3.png" alt="" srcset="" />
           </div>
-          <p>
-            I'm Habeeb Awoyemi, a professional Front-end web developer based in
-            Ilorin. <br />
-            I develop pixel perfect websites with attention with performance.
-            <br /><br />
-            I have great eye for good designs and pay attention to instruction.
-            My skill ranges from Web development, Design, Technical writing and
-            Project Management. <br /><br />
-            I create responsive websites using HTML, Css, Javascript, and React.
-            I'm proficient with design tools like figma and Canva.
-          </p>
-
-          <button class="btn btn-success mt-3 px-4 py-2">Download my CV</button>
+  
+          <div class="col col-xl-6 col-lg-6 col-sm-12 about-description">
+            <h3><span class="box">&#128512;</span> About Me</h3>
+            
+            <p>
+              I'm Habeeb Awoyemi, a professional Front-end web developer based in
+              Ilorin. <br />
+              I develop pixel perfect websites with attention with performance.
+              <br />
+              I have great eye for good designs and pay attention to instruction.
+              My skill ranges from Web development, Design, Technical writing and
+              Project Management. <br />
+              I create responsive websites using HTML, Css, Javascript, and React.
+              I'm proficient with design tools like figma and Canva.
+  
+             
+            </p>
+  
+            <button class="btn btn-success mt-3 px-4 py-2"><a href="data/habeeb-awoyemi.pdf" download="habeeb-awoyemi">Download my CV</a> </button>
+          </div>
         </div>
       </div>
+      
     </section>
 
-    <section class="services d-flex align-items-center py-5">
+    <section id="service" class="services d-flex align-items-center py-5">
       <div class="row services-row container mx-auto g-3">
         <h3 class="service-title">My Services</h3>
         <div class="col-sm-4">
@@ -170,11 +168,151 @@
       </div>
     </section>
 
+    <!-- Portfolio Section -->
+    <section class="portfolio">
+
+      <div class="container portfolio-container">
+        <div class="row">
+        <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1 style="text-align: left;" class="gallery-title">Portfolio</h1>
+        </div>
+
+        <div>
+            <button class="btn btn-default filter-button" data-filter="all">All</button>
+            <button class="btn btn-default filter-button" data-filter="boostrap">Boostrap</button>
+            <button class="btn btn-default filter-button" data-filter="web-app">Web App</button>
+            <button class="btn btn-default filter-button" data-filter="react">React</button>
+            <button class="btn btn-default filter-button" data-filter="chatbot">Chatbot</button>
+        </div>
+        <br/>
+
+
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web-app">
+                <img src="img/comply-website.png" class="img-responsive">
+
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Comply website</h4>
+                    <p>virtual reality website</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web-app">
+                <img src="img/my-intern-app.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>My Intern web App</h4>
+                    <p>websites for employers and interns</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter web-app">
+                <img src="img/todo-app.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Todo List</h4>
+                    <p>vanilla javascript todo app</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter boostrap">
+                <img src="img/vac-home-boostrap.png" class="img-responsive">
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter website">
+                <img src="img/web1.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Vac Home</h4>
+                    <p>Home Booking</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter website">
+                <img src="img/lulu-skattes.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Lulu website</h4>
+                    <p>html, css, javascript website</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter website">
+                <img src="img/internship-newspage.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>News agency page</h4>
+                    <p>News page</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter website">
+                <img src="img/comply-website.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Comply website</h4>
+                    <p>virtual reality website</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+            <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter chatbot">
+                <img src="img/chatbot.png" class="img-responsive">
+                <div class="image-content-area">
+                  <div class="hover-text">
+                    <h4>Chatbot</h4>
+                    <p>Simple chatbot with jquery</p>
+                    <a href="#">view details</a>
+                  </div>
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+    </section>
+
+    <!-- portfolio test ends -->
+
+    <!-- porfolio test 2 -->
+
+   
+
+               
+             
+          
+
+    <!-- Animation Js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<!-- <script src="js/aos.min.js"></script> -->
+	<!-- Filtering Js -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+    
+  <script src="js/jquery-3.6.0.min.js"></script>
+      <script src="js/isotope.pkgd.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+
+
     <script src="js/script.js"></script>
   </body>
 </html>
