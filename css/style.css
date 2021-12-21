@@ -401,6 +401,7 @@ footer {
 
     #contact {
         color: #fff;
+        height: 100vh;
         
     }
     
@@ -460,12 +461,10 @@ footer {
     } */
 
     .contact-form {
-        height: 100vh;
-        background-color: green;
+        height: 100vh ;
         margin-top: 3rem;
-        border: 1px solid red;
     }
-    footer {
+    /* footer {
         height: 100vh;
-    }
+    } */
 }
