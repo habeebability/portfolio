@@ -453,7 +453,7 @@ footer {
     }
 
     .portfolio {
-        height: 100vh;
+        height: auto;
     }
 /* 
     .contact-form {
