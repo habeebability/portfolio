@@ -428,7 +428,7 @@ footer {
     .services-row .card {
         /* padding: 2rem; */
     }
-    #contact {
+    .contact-form {
         height: 100vh;
 
     }
@@ -459,8 +459,10 @@ footer {
         height: 100vh;
     } */
 
-    #contact {
+    .contact-form {
         height: 100vh;
         background-color: green;
+        margin-top: 3rem;
+        border: 1px solid red;
     }
 }
