@@ -7,11 +7,19 @@
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #000;
+    overflow-x: hidden;
+    box-sizing: border-box;
 }
+
+
 
 a {
     text-decoration: none;
     color: white;
+}
+
+header{
+    width: 100%;
 }
 
 .hero {
@@ -35,6 +43,7 @@ i {
     overflow: hidden;
     position: fixed;
     top: 0;
+    left: 0;
     z-index: 1;
 }
 .navbar-brand {
@@ -102,6 +111,8 @@ i {
 
 .about-me {
     background-color: #242424;
+    
+
 }
 
 
@@ -130,6 +141,8 @@ i {
 
 .services {
     height: auto;
+    display: none;
+
 }
 
 .service-title {
@@ -150,8 +163,8 @@ i {
 
 
 .gallery-group .col {
-    display: flex;
-    justify-content: center;
+    /* display: flex;
+    justify-content: center; */
     /* margin: 0 auto; */
 }
 
@@ -341,11 +354,11 @@ i {
         padding: 2rem;
     }
 
-    .gallery-group .col {
-        /* display: initial; */
-        /* justify-content: center; */
-        /* margin: 0 auto; */
-    }
+    /* .gallery-group .col {
+        display: initial; 
+        justify-content: center;
+         margin: 0 auto;
+    } */
     
 }
 
