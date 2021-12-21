@@ -14,13 +14,15 @@ body {
 
 
 a {
+    color: #fff;
     text-decoration: none;
-    color: white;
+    
 }
 
-header{
+/* header{
     width: 100%;
-}
+} */
+
 
 .hero {
     /* height: 100vh; */
@@ -280,6 +282,34 @@ i {
 
 /* projects area */
 
+footer {
+    position: relative;
+    margin-top: 2rem;
+}
+
+#contact {
+    color: #fff;
+    height: auto;
+}
+
+#contact a p {
+    color: #fff;
+}
+
+.message-col h2 {
+    color: #fff;
+}
+
+.message-col h2 span {
+    color: #b91fb9;
+}
+
+.message-col .btn{
+    color: white;
+}
+
+
+
 @media screen and (min-width: 768px) {
 
     .hero {
@@ -350,15 +380,35 @@ i {
         height: 50vh;
     } */
 
-    .services-row .card {
-        padding: 2rem;
+
+    .hover-text h4 {
+       
+        font-size: 15px;
+        font-weight: 500
+    }
+    
+    .hover-text p {
+        font-size: 13px;
+        line-height: 16px
+    }
+    
+    .hover-text a {
+        
+        font-weight: 500;
+        font-size: 17px;
+        margin-top: 3px;
+       
     }
 
-    /* .gallery-group .col {
-        display: initial; 
-        justify-content: center;
-         margin: 0 auto;
-    } */
+    #contact {
+        height: 100vh;
+        color: #fff;
+        
+    }
+    
+   
+    
+    
     
 }
 
@@ -374,6 +424,11 @@ i {
    
     .services {
         height: 50vh;
+    }
+
+    
+    .services-row .card {
+        /* padding: 2rem; */
     }
 }
 
@@ -395,6 +450,10 @@ i {
     }
 
     .portfolio {
+        height: 100vh;
+    }
+
+    .contact-form {
         height: 100vh;
     }
 }

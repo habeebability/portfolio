@@ -1,3 +1,12 @@
+const contactBtn = document.querySelector('.contact-btn');
+
+contactBtn.addEventListener('click', (e)=>{
+    e.preventDefault();
+    
+
+})
+
+
 $(document).ready(function(){
 
     $(".filter-button").click(function(){
