@@ -292,10 +292,9 @@ footer {
     height: auto;
 }
 
-#contact a p {
+#contact ul li a {
     color: #fff;
 }
-
 .message-col h2 {
     color: #fff;
 }
