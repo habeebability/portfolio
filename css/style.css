@@ -400,7 +400,6 @@ footer {
     }
 
     #contact {
-        height: 100vh;
         color: #fff;
         
     }
@@ -429,6 +428,10 @@ footer {
     .services-row .card {
         /* padding: 2rem; */
     }
+    #contact {
+        height: 100vh;
+
+    }
 }
 
 @media screen and (min-width: 1200px) {
@@ -451,8 +454,8 @@ footer {
     .portfolio {
         height: 100vh;
     }
-
+/* 
     .contact-form {
         height: 100vh;
-    }
+    } */
 }
