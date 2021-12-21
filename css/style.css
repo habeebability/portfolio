@@ -461,5 +461,6 @@ footer {
 
     #contact {
         height: 100vh;
+        background-color: green;
     }
 }
